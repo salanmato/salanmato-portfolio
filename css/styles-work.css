@@ -1,0 +1,104 @@
+body{
+    background-color: var(--black);
+    color: var(--white);
+}
+main{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    width: 20%;
+    padding: 8px;
+}
+
+main h2{
+    font-size: 2.4rem;
+}
+
+main section{
+    width: 100%;
+    display: flex;
+}
+
+main section article{
+    width: 100%;
+    display: flex;
+    flex-direction: column;  
+}
+
+main section #project-article{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    
+    background-color: var(--black);
+    padding: 12px 20px;
+
+}
+
+main section #projects-list{
+    width: 100%;
+    
+}
+
+main section #projects-list h3{
+    font-size: 1.8rem;
+    color: var(--white);
+}
+
+main section .project-div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;    
+    margin-bottom: 16px;
+}
+.project-status{
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: 600;
+    color: var(--pink);
+}
+
+.project-description{
+    font-size: 1.4rem;
+    color: var(--white);
+    font-weight: 500;
+}
+
+.project-links{
+    font-size: 1.6rem;
+    margin: 4px 0;
+}
+
+.other-links{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+
+    text-align: justify;
+    margin: 12px 20px;    
+}
+
+@media (max-width: 992px) {
+    .logo{
+        width: 100%;
+        padding: 8px;
+    }
+    main section{
+        flex-direction: column;
+        height: auto;
+    }
+
+
+    .project-links{
+        color: var(--green) !important;
+        font-size: 1.2rem;
+    }
+}

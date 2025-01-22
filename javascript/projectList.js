@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             let projectSite = document.createElement('a')
             projectSite.classList.add('project-links')
             projectSite.innerText = project.links.site
-            projectSite.href = project.links.stite
+            projectSite.href = project.links.site
 
             projectDiv.appendChild(projectSite)
         }

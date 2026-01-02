@@ -8,19 +8,18 @@ const projectsList = [
             site: 'https://salanmato.vercel.app/',
             github: 'https://github.com/salanmato/myportfolio'
         },
-        tags: ["React JavaScript", 'JavaScript', 'HTML', 'CSS']
+        tags: ["React", 'JavaScript', 'HTML', 'CSS']
     },
     {
-        title: 'RandoMovie',
-        slug: 'randomovie',
-        status: 'Em Andamento',
-        image: 'randomovie',
-        description: 'Aplicativo que te ajuda a escolher um filme.\nVocê decide o gênero e o streaming, e o filme é sugerido para você.',
+        title: 'Visual Project Generator',
+        slug: 'visual-project-generator',
+        status: 'Completo',
+        description: 'Te ajuda com ideias bases para diversas áreas visuais (vídeo, design, desenho, etc).',
         links: {
-            site: '',
-            github: 'https://github.com/salanmato/randomovie'
+            site: 'https://visual-project-generator.vercel.app/',
+            github: 'https://github.com/salanmato/project-generator'
         },
-        tags: ["React Native", 'JavaScript']
+        tags: ['JavaScript', 'HTML', 'CSS']
     },
     {
         title: '5movies',
